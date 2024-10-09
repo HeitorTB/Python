@@ -7,3 +7,7 @@ display(tabela)
 
 display(tabela.info())
 
+tabela= tabela.dropna()
+display(tabela.info())
+
+display(tabela['cancelou'].value_counts())
